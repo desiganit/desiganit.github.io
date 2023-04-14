@@ -1,0 +1,27 @@
+.nav-tabs {
+    border-bottom:none;
+  }
+  
+  
+  
+  .nav-tabs .nav-link.active {
+    background-color:#f7f7f7;
+    border-bottom:#f7f7f7;
+    border-radius: 0px;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  
+  .tab-pane.active .tab-pane-header {
+    padding:2rem;
+    background-color:#f7f7f7;
+    margin-bottom:1rem;
+    font-weight: 200;
+
+  }
+  
+  .tab-pane:first-child .tab-pane-header {
+    border-top-left-radius: 0;
+  }
+
+  

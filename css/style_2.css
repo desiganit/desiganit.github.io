@@ -1,0 +1,360 @@
+.jumbotron-custom {
+    background-color: #FBFBFB;
+}
+
+.jumbotron-math {
+    background-color: #FBFBFB;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.problem {
+    position: relative;
+    background: #C3EAFC;
+    padding: 0.40em 0.5em;
+    border-left: solid 2em #ff0505;
+    border-right: solid 2em #ff0505;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    width: 100%;
+}
+
+.collapsible-defintion-hints {
+    position: relative;
+    background: #C3EAFC;
+    padding: 0.25em 0.5em;
+    border-left: solid 2em #F3C52A;
+    border-right: solid 2em #F3C52A;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    cursor: pointer;
+    width: 100%;
+}
+
+.collapsible-facts {
+    position: relative;
+    background: #C3EAFC;
+    padding: 0.25em 0.5em;
+    border-left: solid 2em #C1ABC5;
+    border-right: solid 2em #C1ABC5;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    cursor: pointer;
+    width: 100%;
+}
+
+.definition {
+    position: relative;
+    background: #E5FF8E;
+    padding: 0.25em 0.5em;
+    border-left: solid 0.2em #C863FF;
+    font-size: 22px;
+    border-radius: 5px;
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 10px;
+    text-align: justify;
+    width: 50%;
+}
+
+.def-head{
+    color: blue;
+}
+
+.def{
+    color: #E55AFB;
+    font-style: italic;
+}
+
+.hints {
+    position: relative;
+    background: #E5FF8E;
+    padding: 0.25em 0.5em;
+    border-left: solid 0.2em #C863FF;
+    font-size: 22px;
+    border-radius: 5px;
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 10px;
+    text-align: justify;
+    width: 50%;
+}
+
+.collapsible-solution {
+    position: relative;
+    background: #C3EAFC;
+    padding: 0.25em 0.5em;
+    border-left: solid 2em #25FD00;
+    border-right: solid 2em #25FD00;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    cursor: pointer;
+    width: 100%;
+}
+
+.option-A{
+    position: relative;
+    background: #EFC9FF;
+    padding: 0.25em 0.5em;
+    border-left: solid 0.2em #00AEFF;
+    font-size: 22px;
+    border-radius: 5px;
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 10px;
+    text-align: justify;
+    width: 80%;
+}
+
+.options{
+    position: relative;
+    background: #EFC9FF;
+    padding: 0.25em 0.5em;
+    border-left: solid 0.2em #00AEFF;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 10px;
+    /*text-align: justify;*/
+    width: 80%;
+    margin-top: 0.5em;
+}
+
+.theorem{
+    position: relative;
+    /* background: linear-gradient(to bottom right, #99ffcc 0%, #ffffcc 100%); */
+    /* background-image: linear-gradient(to bottom, #b2f6e7, #b2f9e0, #b5fcd8, #bbfecf, #c4ffc4); */
+    background-image: linear-gradient(to right, #f5e2a5 0%, #f8cdc1 51%, #f6d365 100%);
+    padding: 0.25em 0.5em;
+    border: solid 0.1em #8964FF;
+    font-size: 20px;
+    border-radius: 1em;
+    font-family: inherit;
+    margin-bottom: 15px;
+    text-align: justify;
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+
+.text-box{
+    align-content: center; 
+    position: relative;
+    background: #FFFB7D;
+    padding: 0.25em 0.5em;
+    border: solid 0.3em #0779C8;
+    font-size: inherit;
+    border-radius: 1em;
+    font-family: inherit;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.img-box{
+   text-align: center
+}
+
+.content {
+  padding: 2px 18px;
+  display: none;
+  background-color: #FBFBFB ;
+  margin-top: 0.4em;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.card1{
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.left-card1{
+	background-color: #FAE5D3;
+}
+
+.right-card1{
+	background-color: #A9DFBF;
+}
+
+.left-card2{
+	background-color: #D7BDE2;
+}
+
+.right-card2{
+	background-color: #D6EAF8;
+}
+
+
+
+/* 
+    for cirlce around text 
+    taken from https://codepen.io/jnbruno/pen/vNpPpW?editors=1100
+*/
+
+/*.btn-circle.btn-xl {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}*/
+
+/*Taken from https://www.geeksforgeeks.org/how-to-get-circular-buttons-in-bootstrap-4/*/
+.xyz {
+    text-align: center;
+    /*background: #46ADDB ;*/
+    padding :1em ; 
+    margin: auto;
+    width: 70%;
+    border: solid 0.2em #8964FF;
+
+}
+
+.btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.btn-circle.btn-md {
+    width: 50px;
+    height: 50px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    text-align: center;
+    /*-webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;*/
+}
+
+.btn-circle.btn-md:hover{
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0px, -10px) scale(1.2);
+          transform: translate(0px, -10px) scale(1.2);
+}
+
+.btn-circle.btn-xl {
+    align-content: center;
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*.box-next{
+    position: relative;
+    background: linear-gradient(to bottom right, #99ffcc 0%, #ffffcc 100%);
+    padding: 0.25em 0.5em;
+    border: solid 0.1em #8964FF;
+    font-size: inherit;
+    border-radius: 0em;
+    font-family: inherit;
+    text-align: justify;
+    width: 100%;
+}*/
+
+
+/*
+	Used for the link in the card taken from 
+	https://stackoverflow.com/questions/49554070/using-bootstrap-cards-as-a-hyperlink 
+*/
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0,0,0,0);
+}
+
+
+.prev{
+    float: left;
+    text-decoration: none;
+}
+
+.next{
+
+    float: right;
+    text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  background: #B377FC;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+.button:hover {
+  box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0px, -10px) scale(1.2);
+          transform: translate(0px, -10px) scale(1.2);
+}
+
+/*
+.ui-datepicker-calendar {
+    display: none;
+}*/
+
+
+.daily-problem{
+    font-size: 30px;
+    border: solid 0em black;
+    position: relative;
+    background: #efe7f0;
+    padding: 0.40em 0.5em;
+    /* border-left: solid 2em #ff0505; */
+    /* border-right: solid 2em #ff0505; */
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: inherit;
+    width: 100%;
+}
+
+.false {
+    color: red;
+    text-transform: uppercase;
+}
+
+.true {
+    color: green;
+    text-transform: uppercase;
+}
+    
